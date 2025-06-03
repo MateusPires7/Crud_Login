@@ -17,12 +17,13 @@
           placeholder="Digite um nome para realizar a busca"
           class="busca"
         />
-        <button class="btn btn-busca">Busca</button>
+        <button class="btn btn-busca" onclick="buscar()">Busca</button>
       </div>
       <div>
-        <button class="btn">Cadastrar</button>
-        <button class="btn">Atualizar</button>
-        <button class="btn">Apagar</button>
+        <button class="btn" onclick="adicionar()">Cadastrar</button>
+        <button class="btn" onclick="atualizar()">Atualizar</button>
+        <button class="btn" onclick="apagarItemVetor()">Apagar</button>
+        <button class="btn" onclick="limpar()">Limpar</button>
       </div>
       <div>
         <label for="id">Id: </label>
@@ -30,11 +31,11 @@
       </div>
       <div>
         <label for="login">Login: </label>
-        <input type="text" class="login" id="login">
+        <input type="text" class="login" id="login_usuario">
       </div>
       <div>
         <label for="senha_usuario">Senha: </label>
-        <input type="text" id="senha_usuario">
+        <input type="password" id="senha_usuario">
       </div>
       <table>
         <tr>
@@ -42,8 +43,9 @@
           <th>login</th>
           <th>senha</th>
         </tr>
-        
+        <tbody id="tabela"></tbody>
       </table>
     </div>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>

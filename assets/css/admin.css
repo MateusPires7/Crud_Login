@@ -10,7 +10,7 @@ body {
 .container {
   background-color: #f5f5f5;
   border-radius: 30px;
-  height: 90%;
+  height: 100%;
   padding: 8px 30px;
   width: 80%;
 }
@@ -36,7 +36,7 @@ input {
 }
 
 .id {
-  width: 5%;
+  width: 50%;
 }
 
 .btn {
@@ -61,6 +61,7 @@ table {
   border: 1px solid black;
   border-collapse: collapse;
   padding: 8px;
-  width: 100%;
+  width: 85%;
+  text-align: center;
 }
 
