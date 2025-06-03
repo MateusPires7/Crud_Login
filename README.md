@@ -25,5 +25,8 @@ Este é um projeto básico de front-end usando **HTML** e **CSS**, contendo:
 - Design simples e responsivo
 
 ---
-
-Link de acesso: https://mateuspires7.github.io/Crud_Login/
+- E-mail: admin@admin.com
+- Senha: 1234
+- Link de acesso: https://mateuspires7.github.io/Crud_Login/
+ 
+---
